@@ -1,0 +1,43 @@
+.organizationDiv {
+
+    //# Mobile
+    @media only screen and (min-width: 0px) {
+        width: 90%;
+    }
+
+    //# Tablet 
+    @media only screen and (min-width: 650px) {
+        width: 40%;
+    }
+
+    //# Desktop 
+    @media only screen and (min-width: 992px) {
+        width: 25%;
+
+    }
+
+    // # Huge
+    // @media only screen and (min-width: 1200px) {
+    //   padding: auto;
+    //   width: 25%;
+    // } 
+    margin: 2%;
+
+    .tracking {
+        float: left;
+        padding: 2%;
+
+        .redText {
+            color: red;
+        }
+    }
+
+    .protction {
+        float: right;
+        padding: 2%;
+
+        .greenText {
+            color: green;
+        }
+    }
+}
